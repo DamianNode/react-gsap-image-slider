@@ -123,9 +123,8 @@ body {
             align-items: center;
             position: absolute;
             opacity: 0;
-            &:nth-child(1) {
-              opacity: 1; 
 
+            &:nth-child(1) {
               &:after {
                 content: '';
                 position: absolute;
@@ -185,7 +184,7 @@ body {
                 letter-spacing: .88px;
                 line-height: 28px;
                 color: $seconadry;
-                font-weight: 400;;
+                font-weight: 300;;
               }
             }
           }
